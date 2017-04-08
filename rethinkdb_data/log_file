@@ -18,3 +18,24 @@
 2017-04-07T18:55:47.636208000 114.420049s info: Table 1e629c11-5b0f-4b01-8aa3-387f938ebee1: Starting a new Raft election for term 1.
 2017-04-07T18:55:47.639624000 114.423452s info: Table 1e629c11-5b0f-4b01-8aa3-387f938ebee1: Added replica on this server.
 2017-04-07T18:55:47.697372000 114.481200s info: Table 1e629c11-5b0f-4b01-8aa3-387f938ebee1: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-07T19:18:33.865896000 1480.593127s notice: Server got SIGINT from pid 9928, uid 501; shutting down...
+2017-04-07T19:18:33.900460000 1480.626432s notice: Shutting down client connections...
+2017-04-07T19:18:33.904669000 1480.630640s notice: All client connections closed.
+2017-04-07T19:18:33.904681000 1480.630652s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-04-07T19:18:33.986967000 1480.712939s notice: Storage engine shut down.
+2017-04-07T19:18:38.281566000 0.629382s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2017-04-07T19:18:38.384772000 0.732633s notice: Running on Darwin 14.5.0 x86_64
+2017-04-07T19:18:38.385008000 0.732818s notice: Loading data from directory /Users/christina/Desktop/firstdemo/rethinkdb_data
+2017-04-07T19:18:38.530442000 0.878252s info: Automatically using cache size of 100 MB
+2017-04-07T19:18:38.530480000 0.878290s warn: Cache size does not leave much memory for server and query overhead (available memory: 332 MB).
+2017-04-07T19:18:38.530517000 0.878327s warn: Cache size is very low and may impact performance.
+2017-04-07T19:18:38.531446000 0.879256s notice: Listening for intracluster connections on port 29015
+2017-04-07T19:18:38.698802000 1.046612s notice: Listening for client driver connections on port 28015
+2017-04-07T19:18:38.699630000 1.047441s notice: Listening for administrative HTTP connections on port 8080
+2017-04-07T19:18:38.699700000 1.047510s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-04-07T19:18:38.699707000 1.047516s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-04-07T19:18:38.699743000 1.047553s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-04-07T19:18:38.699748000 1.047558s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-04-07T19:18:38.699751000 1.047561s notice: Server ready, "Christinas_Air_zz0" 0ea9df6a-e34d-4846-adc3-363577b468b4
+2017-04-07T19:18:39.683940000 2.031694s info: Table 1e629c11-5b0f-4b01-8aa3-387f938ebee1: Starting a new Raft election for term 2.
+2017-04-07T19:18:39.760987000 2.108742s info: Table 1e629c11-5b0f-4b01-8aa3-387f938ebee1: This server is Raft leader for term 2. Latest log index is 3.
